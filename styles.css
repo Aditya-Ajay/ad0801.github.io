@@ -1,0 +1,46 @@
+form {
+  /* border: red solid 1em; */
+  /* background-color: rgb(118, 118, 226); */
+  color: white;
+  font-size: 1.4rem;
+  margin: 0 auto;
+  margin-top: -0.5rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  background-image: url("data:image/jpeg;base64,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");
+}
+body {
+  background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-blue-background-with-geometric-forms-picture-image_1146994.jpg");
+}
+section {
+  border: rgb(22, 22, 180) solid;
+  padding-bottom: 2rem;
+  padding-right: -10rem;
+
+  /* background-color: rgb(118, 118, 226); */
+  padding-left: 5rem;
+}
+legend {
+  font-size: 2.5rem;
+  font-family: "Neonderthaw", cursive;
+  font-family: "Rubik Beastly", cursive;
+}
+button {
+  border: red solid;
+  margin-left: 25rem;
+  font-size: 1.4rem;
+}
+h3,
+h2,
+h1 {
+  color: rgb(155, 155, 197);
+}
+div {
+  color: rgb(155, 155, 160);
+}
+textarea {
+  height: 8rem;
+}
+.hello {
+  display: inline;
+}

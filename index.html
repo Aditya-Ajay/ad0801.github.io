@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Rubik+Beastly&display=swap" rel="stylesheet">
+    
+    <link href="styles.css" rel ="stylesheet">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.048150687594!2d77.12811521514294!3d28.538272395091653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1c3c5e02edd5%3A0x942e2822c0f4cad8!2sE%202%20Vasant%20Kunj%2C%20Sector%20E2%2C%20Mahipalpur%20Village%2C%20Vasant%20Kunj%2C%20New%20Delhi%2C%20Delhi%20110070!5e0!3m2!1sen!2sin!4v1642725852392!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   
+</head>
+<body>
+    <form action = "https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES
+    " method ="post">
+    <i class="fas fa-camera"></i> 
+    
+    <input type = "hidden" name ="send_to" value = "aaak1837@gmail.com">
+
+        <fieldset>
+            <legend> Do fill it </legend>
+    <section>
+    <h1>VISITING FORM </h1>
+<h2>You need to fill the complete form in order to move ahead</h2>
+
+<h3>Contact Information </h3>
+<div>
+<label for="name"  >NAME : </label>
+<input type="text" id="name" name ="name" placeholder="eg:DAVID WARNER" autocomplete="off">
+<label for="telephone" >TELEPHONE NUMBER: </label>
+<input type="tel" id="telephone" name ="telephone" placeholder="971XXXXXXX" autocomplete="off">
+<label for="email" >EMAIL ID: </label>
+<input type="email" id="email" name ="email" autocomplete="off"><br><br>
+
+<label>
+
+DATE : <input type ="date" name = "date">
+</label>
+<label>
+ADDRESS : <input type ="text"  name ="address">
+</label>
+</div><br>
+<div>
+<label for ="gender">GENDER:</label>
+<select id ="gender" name ="gender">
+    <option value ="noting"  selected> Select your gender </option>
+    <option value ="male" > MALE </option>
+    <option value ="female"> FEMALE </option>
+    <option value ="transgender"> TRANSGENDER </option>
+</select><br>
+</div>
+<div>
+<p>ACCORDING TO YOU WHICH COURSES ARE IN DEMAND </p>
+<label>
+<input type ="radio" name ="dig" value ="digital"  checked  > I like digital marketing courses> <br>
+</label>
+<label><input type ="radio" name ="dig" value ="photography"> I like photography courses><br></label>
+<label><input type ="radio"  name ="dig" value ="coding" > I like coding courses> <br> </label>
+<label><input type ="radio" name ="dig" value ="cooking" > I like cooking courses> <br> <br> </label>
+<label >
+ANY OPINIONS : <textarea id ="textarea" name ="textarea"></textarea>  <br><br>
+</label>
+<label >
+<input type ="checkbox" name ="check" id ="check" > ARE YOU SURE YOU WANT TO SUBMIT THE FORM 
+</label>
+</div>
+    </section>
+        </fieldset><br>
+        <button type ="submit">SUBMIT</button>  
+       
+</form>  
+
+</body>
+</html>
